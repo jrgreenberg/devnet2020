@@ -69,19 +69,19 @@ def getDeviceCompliance():
             swfail.append(item)
   
     for item in wireless:
-        if item.get('Version') == msversion:
+        if item.get('Version') == mrversion:
             wirelesspass = wirelesspass + 1
         else:
             wirelessfail.append(item)
 
     for item in firewalls:
-        if item.get('Version') == msversion:
+        if item.get('Version') == mxversion:
             fwpassed = fwpassed + 1
         else:
             fwfail.append(item)
    
     for item in cameras:
-        if item.get('Version') == msversion:
+        if item.get('Version') == mvversion:
             campass = campass + 1
         else:
             camfail.append(item)
