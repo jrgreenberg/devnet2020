@@ -15,10 +15,7 @@ msversion = '12-28'
 mrversion = '26-6-1'
 mxversion = '15-27'
 mvversion = '4-0'
-# for testing
-#WebexRoomID = "Y2lzY29zcGFyazovL3VzL1JPT00vNzg4OWZkODAtMDQwYy0xMWViLTliMzYtMDM1ZWY4YzUzYWZl"
 
-# for submission
 WebexRoomID = "Y2lzY29zcGFyazovL3VzL1JPT00vZmIwMWQ2MjAtZGU0Ni0xMWVhLWE3OTMtN2Q3YTJiMWQ1YmNj"
 
 def sendConfirmation():
@@ -94,19 +91,6 @@ def getDeviceCompliance():
     print(f'Total Cameras that meet standard: {campass}')
     print(f'Devices that will need to be manually checked: \n{swfail}\n{wirelessfail}\n{fwfail}\n{camfail}')
     return()
-
-
-
-
-        
-
-        
-        
-
-
-
-        
-            
 
 
 
